@@ -1,0 +1,57 @@
+img {
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+body {
+   background-color: rgb(247, 247, 247)  
+}
+
+
+.section_1 {
+  background: url('images/Sunset_2MD.jpg');   
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.emf{
+    font-family: 'Brush Script MT', cursive;
+    margin: 10px;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+
+  .GL {
+      width: auto;
+      height: auto;;
+  }
+
+  .resume_img {
+    height: 400px;
+    width: 260px;
+    margin-bottom: 50px;
+  }
+
+  .resume_container { 
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 50px
+    
+   
+    
+}
+
+  .contact_footer { 
+        display: flex;
+        justify-content: space-evenly;
+
+  }
+
+  
+
+  
